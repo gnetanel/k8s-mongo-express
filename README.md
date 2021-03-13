@@ -10,6 +10,6 @@ kubectl apply -f mongo-express.yaml
 
 in case running in minikube, to get external mongo express external service external ip, run:
 minikube get service  mongo-express-service
-# as minikube won't create external ip for the external service of mongo express...
+as minikube won't create external ip for the external service of mongo express...
 
 
